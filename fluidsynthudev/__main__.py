@@ -1,5 +1,5 @@
-'Runs filesynth.'
+'Runs fluidsynth.'
 
-import filesynthudev.main
+import fluidsynthudev.main
 
-filesynthudev.main.main()
+fluidsynthudev.main.main()
