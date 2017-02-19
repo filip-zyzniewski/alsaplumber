@@ -5,17 +5,17 @@ def read(fname):
     with open(os.path.join(os.path.dirname(__file__), fname)) as f:
         f.read()
 
-name = 'fluidsynthudev'
+name = 'alsaplumber'
 
 setup(
     name = name,
     version = '0.0.1',
     author = 'Filip Żyźniewski',
     author_email = 'filip.zyzniewski@gmail.com',
-    description = 'Launches and kills fluidsynth on udev events',
+    description = 'Connects and disconnects MIDI inputs from sequencers.',
     license = 'GPLv3',
-    keywords = 'fluidsynth midi alsaseq udev',
-    url = 'http://packages.python.org/fluidsynthudev',
+    keywords = 'midi alsaseq udev fluidsynth timidity',
+    url = 'http://packages.python.org/alsaplumber',
     packages=[name],
     long_description=read('README.md'),
     classifiers=[

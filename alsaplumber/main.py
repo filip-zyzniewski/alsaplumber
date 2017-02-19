@@ -5,7 +5,7 @@ import pyalsa.alsaseq
 def main():
     seq = pyalsa.alsaseq.Sequencer(
         name = 'default',
-        clientname = 'fluidsynthudev',
+        clientname = 'alsaplumber',
         streams = pyalsa.alsaseq.SEQ_OPEN_DUPLEX,
         mode = pyalsa.alsaseq.SEQ_BLOCK,
     )
